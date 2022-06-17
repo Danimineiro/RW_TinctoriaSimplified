@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>TS_RecolorApparelNoDye</defName>
+		<driverClass>TinctoriaSimplified.JobDriver_RecolorApparelNoDye</driverClass>
+		<reportString>recoloring apparel</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+	</JobDef>
+
+	<JobDef>
+		<defName>TS_DyeHairNoDye</defName>
+		<driverClass>TinctoriaSimplified.JobDriver_DyeHairNoDye</driverClass>
+		<reportString>dyeing hair</reportString>
+	</JobDef>
+</Defs>
