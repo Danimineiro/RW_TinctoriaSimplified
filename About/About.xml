@@ -20,5 +20,5 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<packageId>dani.TinctoriaSimplified</packageId>
-	<description>This mod removes the uses of </description>
+	<description>Removes the need for dye from vanilla actions, such as dying clothes or hair, and also patches Craft with Color, removing the dye requirement from recipies.</description>
 </ModMetaData>
