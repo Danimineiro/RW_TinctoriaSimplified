@@ -6,6 +6,7 @@ Compatibility is achieved by not removing dye - if a mod isn't patched for this 
 
 [img=https://raw.githubusercontent.com/Danimineiro/RW_TinctoriaSimplified/2b01e89a79937a5b6c81ac1b201f4f8f0363a749/SteamWorkshop/Compatibility.png][/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795998250]Craft with Color[/url] is automatically patched and therefor compatible with this mod!
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2822901792]Auto-Dye[/url] Works out of the box!
 If you see another mod that uses dye, that you want patched, please inform me in the comments below!
 
 [img=https://raw.githubusercontent.com/Danimineiro/RW_dropOnFloorAndForbid/master/Workshop/links.png][/img]
