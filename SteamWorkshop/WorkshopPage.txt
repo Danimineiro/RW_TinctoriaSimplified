@@ -4,7 +4,7 @@ The goal is to make dye an item that's unnecessary to acquire, as it isn't very 
 This mod achieves its goal by removing dye as a requirement to recolouring hair and apparel.
 Compatibility is achieved by not removing dye - if a mod isn't patched for this it will still require dye.
 
-[img=https://raw.githubusercontent.com/Danimineiro/Empire-Mod/894b2df754893635a1bb88c2b1c5fb0124b545e3/Common/Textures/WorkshopPage/compatibility.png][/img]
+[img=https://raw.githubusercontent.com/Danimineiro/RW_TinctoriaSimplified/2b01e89a79937a5b6c81ac1b201f4f8f0363a749/SteamWorkshop/Compatibility.png][/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2795998250]Craft with Color[/url] is automatically patched and therefor compatible with this mod!
 If you see another mod that uses dye, that you want patched, please inform me in the comments below!
 
