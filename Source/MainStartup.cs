@@ -20,13 +20,15 @@ namespace TinctoriaSimplified
 
         static MainStartup()
         {
+            Harmony.DEBUG = true;
             assemblys = AppDomain.CurrentDomain.GetAssemblies().ToHashSet();
             harmony = new Harmony("dani.TinctoriaSimplified");
 
             RunVanillaPatches();
             if (CWCPatches.CWCPresent(assemblys)) CWCPatches.RunCWCPatches(harmony);
+            if (SelfDyingPatches.SDPresent(assemblys)) SelfDyingPatches.RunSDPatches(harmony);
 
-            Log.Message($"<color=orange>[TinctoriaSimplified]</color> Hello world!");
+            Log.Message($"<color=orange>[TinctoriaSimplified]</color> Hello world! SD Detected: {SelfDyingPatches.SDPresent(assemblys)}");
         }
 
         public static void RunVanillaPatches()

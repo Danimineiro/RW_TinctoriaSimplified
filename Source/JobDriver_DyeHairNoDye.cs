@@ -48,7 +48,7 @@ namespace TinctoriaSimplified
 			if (pawn.style.nextHairColor != null)
 			{
 				Color? nextHairColor = pawn.style.nextHairColor;
-				Color hairColor = pawn.story.hairColor;
+				Color hairColor = pawn.story.HairColor;
 				if (nextHairColor == null || (nextHairColor != null && !(nextHairColor.GetValueOrDefault() == hairColor)))
 				{
 					Thing stylingStation = GenClosest.ClosestThing_Global_Reachable(pawn.Position, pawn.Map, pawn.Map.listerBuildings.AllBuildingsColonistOfDef(ThingDefOf.StylingStation), PathEndMode.InteractionCell, TraverseParms.For(pawn), validator: (Thing target) => !target.IsForbidden(pawn) && pawn.CanReserve(target));
